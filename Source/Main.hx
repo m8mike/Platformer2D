@@ -30,7 +30,7 @@ class Main extends Sprite {
 	public function new() {
 		super();
 		instance = this;
-		stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
+		// stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
 		world = new B2World(new B2Vec2(0, 10.0), true);
 		physicsDebug = new Sprite();
 		addChild(physicsDebug);

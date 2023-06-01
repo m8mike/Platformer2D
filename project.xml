@@ -9,6 +9,9 @@
 	<haxelib name="openfl" />
 	<haxelib name="box2d" />
 	
-	<assets path="Assets" rename="assets" />
-	
+	<!-- <assets path="Assets" rename="assets" /> -->
+	<window width="640" height="480" background="#FFFFFF" fps="60" />
+	<window hardware="true" allow-shaders="true" require-shaders="true" depth-buffer="false" stencil-buffer="false" />
+	<window fullscreen="false" resizable="true" borderless="false" vsync="false" />
+	<window orientation="portrait" />
 </project>
